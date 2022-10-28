@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Colour Game (c)::: 2022</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="skeleton.css">
+    <style>
+        body{
+            background: #b1b1b1;
+            padding-top: 45px;
+        }
+     h1,h3{
+        text-align: center;
+        border:3px solid white;
+        align-self: center;
+        width:fit-content;
+        margin:auto;
+        background-color: #d9d9d9;
+     }
+     .square{
+        width:100px;
+        height:100px;
+        border: 2px solid white !important;
+        border-radius: 6px;
+        
+     }
+
+     .rounder{
+        margin:auto !important;
+        width: 50%;
+     }
+     footer{
+        text-align: center;
+        align-self: center;
+        margin: auto;
+        width: fit-content;
+     }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="12 columns"><h1>Tap Squares to play</h1></div>
+        </div>
+<br>
+<div class="row">
+    <div class="12 columns result"><h3>Green !!</h3></div>
+</div>
+<br>
+<hr>
+        <section>
+            <div class="row rounder">
+                <div class="4 columns square" style="background:#5b0707"></div>
+                <div class="4 columns square" style="background:#dc143c"></div>
+                <div class="4 columns square" style="background:#800080"></div>
+            </div>
+    <br>
+            <div class="row rounder">
+                <div class="4 columns square" style="background:#008000"></div>
+                <div class="4 columns square" style="background:#ffa500"></div>
+                <div class="4 columns square" style="background:#008080"></div>
+            </div>
+        
+    
+        </section>
+
+        <br>
+        <hr>
+        
+    <footer class="container">
+        Talabi Olabode Folorunso (c) 2022.
+    </footer>
+</div> 
+
+    <script src="Engine.js"></script>
+</body>
+</html>
